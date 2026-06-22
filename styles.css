@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "HeadlinerNo45";
+  src: url("Fonts/headlinerno45.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+button {
+  font-family: "HeadlinerNo45", sans-serif;
+}
+
+body {
+  font-family: "HeadlinerNo45", sans-serif;
+}
+
+h2 {
+  pointer-events: none;
+  margin: auto;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 3000px;
+  height: 1080px;
+}
+
+.expansionContainer {
+  display: flex;
+  position: absolute;
+  left: 20px;
+}
+
+.factionsContainer {
+  display: flex;
+  position: absolute;
+  left: 20px;
+}
+
+.cardtypeContainer {
+  display: flex;
+  margin-top: 40px;
+  position: absolute;
+  left: 20px;
+}
+
+.allCardTypesConfig {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 4000px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.clMainContainer {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  z-index: 2;
+}
+
+.orderContainerMain {
+  display: flex;
+}
+
+.eventContainerMain {
+  display: flex;
+}
+
+.sheetContainers {
+  display: flex;
+}
+
+.systemTileContainers {
+  display: flex;
+}
+
+.cardBackContainerMain {
+  display: flex;
+}
+
+.clStarterCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: green;
+  z-index: -1;
+}
+
+.cl0Cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: greenyellow;
+}
+
+.cl2Cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: orange;
+}
+
+.cl3Cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: red;
+}
+
+.orderCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: burlywood;
+  z-index: -1;
+}
+
+.eventCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: blue;
+  z-index: -1;
+}
+
+.sheetCards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: black;
+  z-index: -1;
+}
+
+.systemTileCards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: black;
+  z-index: -1;
+}
+
+.cardBackCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: black;
+  z-index: -1;
+}
+
+.tabExpansion {
+  border: solid var(--expansionColor);
+  text-align: center;
+  width: 200px;
+  height: 40px;
+}
+
+.tabExpansion:not(.active) {
+  background-color: lightgrey;
+}
+
+.tabExpansion.active {
+  background-color: var(--expansionColor);
+}
+
+.tabFaction {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 50px;
+
+  color: var(--factionColor);
+  border: solid 2px var(--factionColor);
+  cursor: pointer;
+  box-shadow: 0 0 8px 2px var(--factionColor);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.tabFaction:not(.active) {
+  background-color: lightgrey;
+}
+
+.tabFaction.active {
+  background-color: var(--factionColor);
+}
+
+.tabCardType {
+  border: solid red;
+  background-color: lightgray;
+  width: 110px;
+  height: 50px;
+
+  cursor: pointer;
+}
+
+.tabCardType:not(.active) {
+  background-color: lightgrey;
+}
+
+.tabCardType.active {
+  background-color: beige;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.dlBtn {
+  width: 200px;
+  height: 50px;
+  align-self: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
+/* .tabContent.active {
+  visibility: visible;
+} */
