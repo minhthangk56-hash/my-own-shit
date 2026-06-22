@@ -1,19 +1,19 @@
 const expansions = [
   {
-    expansionName: "The Dying Light",
+    expansionName: "The Chaos Chosens",
     expansionColor: "peru",
     factionNames: [
-      "Adeptus Custodes",
-      "Genestealer Cult",
-      "Leagues of Votann",
+      "Death Guards",
+      "World Eaters",
+      "Emperor's Childrens",
       "Thousand Sons",
     ],
     factionFolders: [
-      "AdeptusCustodes",
-      "GenestealerCult",
-      "LeaguesofVotann",
+      "Death Guards",
+      "World Eaters",
+      "Emperor's Childrens",
       "ThousandSons",
     ],
-    factionColor: ["gold", "purple", "red", "SkyBlue"],
+    factionColor: ["green ", "red", "purple", "SkyBlue"],
   },
 ];
