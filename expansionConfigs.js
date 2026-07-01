@@ -12,7 +12,7 @@ const expansions = [
       "Death Guard",
       "World Eaters",
       "Emperor's Childrens",
-      "ThousandSons",
+      "Thousand Sons",
     ],
     factionColor: ["green ", "red", "purple", "SkyBlue"],
   },
