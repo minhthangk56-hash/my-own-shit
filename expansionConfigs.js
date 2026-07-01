@@ -1,9 +1,9 @@
 const expansions = [
   {
-    expansionName: "The Chaos Chosens",
-    expansionColor: "peru",
+    expansionName: "From Empyrean Depths",
+    expansionColor: "yello",
     factionNames: [
-      "Death Guards",
+      "Death Guard",
       "World Eaters",
       "Emperor's Childrens",
       "Thousand Sons",
