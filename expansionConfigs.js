@@ -9,7 +9,7 @@ const expansions = [
       "Thousand Sons",
     ],
     factionFolders: [
-      "Death Guards",
+      "Death Guard",
       "World Eaters",
       "Emperor's Childrens",
       "ThousandSons",
